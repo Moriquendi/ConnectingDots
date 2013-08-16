@@ -8,15 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol MSDotsPicketDataSource <NSObject>
+@class MSDotsPickerViewController;
 
-- (NSUInteger)itemsCount;
-- (UIView *)viewForItemAtIndex:(NSUInteger)index;
+@protocol MSDotsPickerDataSource <NSObject>
 
+- (NSUInteger)dotsPickerItemsCount:(MSDotsPickerViewController *)dotsPicker;
+- (UIView *)dotsPicker:(MSDotsPickerViewController *)dotsPicker
+    viewForItemAtIndex:(NSUInteger)index;
+- (UIViewController *)viewControllerForDotAtIndex:(NSUInteger)index;
+
+@end
+
+@protocol MSDotsPickerDelegate <NSObject>
+@optional
+- (void)dotsPicker:(MSDotsPickerViewController *)dotsPicker didEndViewControllerTransition:(UIViewController *)vc;
 @end
 
 @interface MSDotsPickerViewController : UIViewController
 
-@property (nonatomic, weak) id <MSDotsPicketDataSource> dataSource;
+@property (nonatomic, weak) id <MSDotsPickerDataSource> dataSource;
+@property (nonatomic, weak) id <MSDotsPickerDelegate> delegate;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808261B17BDE52A00318CC9 /* MSEventsConnectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808261A17BDE52A00318CC9 /* MSEventsConnectorViewController.m */; };
 		181BE84A17BA42350085B8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181BE84917BA42350085B8E2 /* Foundation.framework */; };
 		181BE84C17BA42350085B8E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181BE84B17BA42350085B8E2 /* CoreGraphics.framework */; };
 		181BE84E17BA42350085B8E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181BE84D17BA42350085B8E2 /* UIKit.framework */; };
@@ -22,6 +23,26 @@
 		181BE87317BA42350085B8E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181BE87117BA42350085B8E2 /* InfoPlist.strings */; };
 		181BE87517BA42350085B8E2 /* ConnectingDotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BE87417BA42350085B8E2 /* ConnectingDotsTests.m */; };
 		181BE88017BA428A0085B8E2 /* MSDotsPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BE87F17BA428A0085B8E2 /* MSDotsPickerViewController.m */; };
+		182D2DD917BEB48F005D13EB /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 182D2DD717BEB48F005D13EB /* rightArrow.png */; };
+		182D2DDA17BEB48F005D13EB /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182D2DD817BEB48F005D13EB /* rightArrow@2x.png */; };
+		182D2DDE17BEBD14005D13EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182D2DDD17BEBD14005D13EB /* AVFoundation.framework */; };
+		182D2DE017BEBD4C005D13EB /* explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = 182D2DDF17BEBD4C005D13EB /* explode.wav */; };
+		182D2DE217BEBF03005D13EB /* bgaudio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 182D2DE117BEBF03005D13EB /* bgaudio.wav */; };
+		182D2DE517BEC355005D13EB /* spring.wav in Resources */ = {isa = PBXBuildFile; fileRef = 182D2DE417BEC355005D13EB /* spring.wav */; };
+		185B1A8317BB401500096F4D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B1A8217BB401500096F4D /* bg.png */; };
+		185B1A8617BBF41D00096F4D /* MSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B1A8517BBF41D00096F4D /* MSEvent.m */; };
+		185B1A8C17BBF60900096F4D /* ip1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B1A8B17BBF60900096F4D /* ip1.png */; };
+		185B1A9017BBF9A400096F4D /* ipTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B1A8F17BBF9A400096F4D /* ipTitle.png */; };
+		185B1A9317BC141100096F4D /* MSIPhoneEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B1A9217BC141100096F4D /* MSIPhoneEventViewController.m */; };
+		185B1A9517BC14E200096F4D /* MSIPhoneEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185B1A9417BC14E200096F4D /* MSIPhoneEventViewController.xib */; };
+		185B1A9817BC1C1200096F4D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B1A9717BC1C1200096F4D /* UIImage+ImageEffects.m */; };
+		18C98AD317BC50ED00A3551A /* iphoneImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C98AD217BC50ED00A3551A /* iphoneImage.png */; };
+		18F1915517BD1BC20073A8AB /* closeBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F1915417BD1BC20073A8AB /* closeBtn@2x.png */; };
+		18F1915717BD1F650073A8AB /* closeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F1915617BD1F650073A8AB /* closeBtn.png */; };
+		18F1915917BD396E0073A8AB /* MSTransistorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F1915817BD396E0073A8AB /* MSTransistorView.xib */; };
+		18F1915C17BD39980073A8AB /* MSTransistorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1915B17BD39980073A8AB /* MSTransistorViewController.m */; };
+		18F1915E17BD3C570073A8AB /* transInventors.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F1915D17BD3C570073A8AB /* transInventors.png */; };
+		18F1916017BD3CFB0073A8AB /* firstTrans.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F1915F17BD3CFB0073A8AB /* firstTrans.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1808261917BDE52A00318CC9 /* MSEventsConnectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEventsConnectorViewController.h; path = Classes/MSEventsConnectorViewController.h; sourceTree = "<group>"; };
+		1808261A17BDE52A00318CC9 /* MSEventsConnectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSEventsConnectorViewController.m; path = Classes/MSEventsConnectorViewController.m; sourceTree = "<group>"; };
 		181BE84617BA42350085B8E2 /* ConnectingDots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectingDots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181BE84917BA42350085B8E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		181BE84B17BA42350085B8E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +79,31 @@
 		181BE87417BA42350085B8E2 /* ConnectingDotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectingDotsTests.m; sourceTree = "<group>"; };
 		181BE87E17BA42710085B8E2 /* MSDotsPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSDotsPickerViewController.h; path = Classes/MSDotsPickerViewController.h; sourceTree = "<group>"; };
 		181BE87F17BA428A0085B8E2 /* MSDotsPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSDotsPickerViewController.m; path = Classes/MSDotsPickerViewController.m; sourceTree = "<group>"; };
+		182D2DD717BEB48F005D13EB /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		182D2DD817BEB48F005D13EB /* rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@2x.png"; sourceTree = "<group>"; };
+		182D2DDB17BEBCFB005D13EB /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		182D2DDD17BEBD14005D13EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		182D2DDF17BEBD4C005D13EB /* explode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explode.wav; sourceTree = "<group>"; };
+		182D2DE117BEBF03005D13EB /* bgaudio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgaudio.wav; sourceTree = "<group>"; };
+		182D2DE417BEC355005D13EB /* spring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spring.wav; sourceTree = "<group>"; };
+		185B1A8217BB401500096F4D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		185B1A8417BBF41D00096F4D /* MSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEvent.h; path = Model/MSEvent.h; sourceTree = "<group>"; };
+		185B1A8517BBF41D00096F4D /* MSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSEvent.m; path = Model/MSEvent.m; sourceTree = "<group>"; };
+		185B1A8B17BBF60900096F4D /* ip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ip1.png; sourceTree = "<group>"; };
+		185B1A8F17BBF9A400096F4D /* ipTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipTitle.png; sourceTree = "<group>"; };
+		185B1A9117BC141100096F4D /* MSIPhoneEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSIPhoneEventViewController.h; path = Classes/MSIPhoneEventViewController.h; sourceTree = "<group>"; };
+		185B1A9217BC141100096F4D /* MSIPhoneEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSIPhoneEventViewController.m; path = Classes/MSIPhoneEventViewController.m; sourceTree = "<group>"; };
+		185B1A9417BC14E200096F4D /* MSIPhoneEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSIPhoneEventViewController.xib; sourceTree = "<group>"; };
+		185B1A9617BC1C1200096F4D /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Classes/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		185B1A9717BC1C1200096F4D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Classes/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		18C98AD217BC50ED00A3551A /* iphoneImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneImage.png; sourceTree = "<group>"; };
+		18F1915417BD1BC20073A8AB /* closeBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeBtn@2x.png"; sourceTree = "<group>"; };
+		18F1915617BD1F650073A8AB /* closeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeBtn.png; sourceTree = "<group>"; };
+		18F1915817BD396E0073A8AB /* MSTransistorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSTransistorView.xib; sourceTree = "<group>"; };
+		18F1915A17BD39980073A8AB /* MSTransistorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTransistorViewController.h; path = Classes/MSTransistorViewController.h; sourceTree = "<group>"; };
+		18F1915B17BD39980073A8AB /* MSTransistorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTransistorViewController.m; path = Classes/MSTransistorViewController.m; sourceTree = "<group>"; };
+		18F1915D17BD3C570073A8AB /* transInventors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transInventors.png; sourceTree = "<group>"; };
+		18F1915F17BD3CFB0073A8AB /* firstTrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstTrans.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D2DDE17BEBD14005D13EB /* AVFoundation.framework in Frameworks */,
 				181BE84C17BA42350085B8E2 /* CoreGraphics.framework in Frameworks */,
 				181BE84E17BA42350085B8E2 /* UIKit.framework in Frameworks */,
 				181BE84A17BA42350085B8E2 /* Foundation.framework in Frameworks */,
@@ -104,6 +153,8 @@
 		181BE84817BA42350085B8E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				182D2DDD17BEBD14005D13EB /* AVFoundation.framework */,
+				182D2DDB17BEBCFB005D13EB /* AudioUnit.framework */,
 				181BE84917BA42350085B8E2 /* Foundation.framework */,
 				181BE84B17BA42350085B8E2 /* CoreGraphics.framework */,
 				181BE84D17BA42350085B8E2 /* UIKit.framework */,
@@ -122,8 +173,19 @@
 				181BE85F17BA42350085B8E2 /* MSViewController.m */,
 				181BE87E17BA42710085B8E2 /* MSDotsPickerViewController.h */,
 				181BE87F17BA428A0085B8E2 /* MSDotsPickerViewController.m */,
+				185B1A9117BC141100096F4D /* MSIPhoneEventViewController.h */,
+				185B1A9217BC141100096F4D /* MSIPhoneEventViewController.m */,
+				18F1915A17BD39980073A8AB /* MSTransistorViewController.h */,
+				18F1915B17BD39980073A8AB /* MSTransistorViewController.m */,
+				1808261917BDE52A00318CC9 /* MSEventsConnectorViewController.h */,
+				1808261A17BDE52A00318CC9 /* MSEventsConnectorViewController.m */,
+				185B1A9617BC1C1200096F4D /* UIImage+ImageEffects.h */,
+				185B1A9717BC1C1200096F4D /* UIImage+ImageEffects.m */,
+				185B1A8717BBF42000096F4D /* Model */,
 				181BE86117BA42350085B8E2 /* Images.xcassets */,
 				181BE85017BA42350085B8E2 /* Supporting Files */,
+				185B1A9417BC14E200096F4D /* MSIPhoneEventViewController.xib */,
+				18F1915817BD396E0073A8AB /* MSTransistorView.xib */,
 			);
 			path = ConnectingDots;
 			sourceTree = "<group>";
@@ -131,6 +193,19 @@
 		181BE85017BA42350085B8E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				182D2DE417BEC355005D13EB /* spring.wav */,
+				182D2DDF17BEBD4C005D13EB /* explode.wav */,
+				182D2DE117BEBF03005D13EB /* bgaudio.wav */,
+				182D2DD717BEB48F005D13EB /* rightArrow.png */,
+				182D2DD817BEB48F005D13EB /* rightArrow@2x.png */,
+				18F1915F17BD3CFB0073A8AB /* firstTrans.png */,
+				18F1915D17BD3C570073A8AB /* transInventors.png */,
+				18F1915617BD1F650073A8AB /* closeBtn.png */,
+				18F1915417BD1BC20073A8AB /* closeBtn@2x.png */,
+				185B1A8F17BBF9A400096F4D /* ipTitle.png */,
+				185B1A8B17BBF60900096F4D /* ip1.png */,
+				18C98AD217BC50ED00A3551A /* iphoneImage.png */,
+				185B1A8217BB401500096F4D /* bg.png */,
 				181BE85117BA42350085B8E2 /* ConnectingDots-Info.plist */,
 				181BE85217BA42350085B8E2 /* InfoPlist.strings */,
 				181BE85517BA42350085B8E2 /* main.m */,
@@ -155,6 +230,15 @@
 				181BE87117BA42350085B8E2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185B1A8717BBF42000096F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185B1A8417BBF41D00096F4D /* MSEvent.h */,
+				185B1A8517BBF41D00096F4D /* MSEvent.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +318,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F1915517BD1BC20073A8AB /* closeBtn@2x.png in Resources */,
+				182D2DE217BEBF03005D13EB /* bgaudio.wav in Resources */,
+				18F1915917BD396E0073A8AB /* MSTransistorView.xib in Resources */,
+				182D2DDA17BEB48F005D13EB /* rightArrow@2x.png in Resources */,
+				182D2DD917BEB48F005D13EB /* rightArrow.png in Resources */,
+				185B1A9517BC14E200096F4D /* MSIPhoneEventViewController.xib in Resources */,
 				181BE86217BA42350085B8E2 /* Images.xcassets in Resources */,
 				181BE85417BA42350085B8E2 /* InfoPlist.strings in Resources */,
+				18F1916017BD3CFB0073A8AB /* firstTrans.png in Resources */,
+				182D2DE017BEBD4C005D13EB /* explode.wav in Resources */,
+				185B1A8317BB401500096F4D /* bg.png in Resources */,
+				185B1A9017BBF9A400096F4D /* ipTitle.png in Resources */,
+				18F1915E17BD3C570073A8AB /* transInventors.png in Resources */,
+				182D2DE517BEC355005D13EB /* spring.wav in Resources */,
+				18C98AD317BC50ED00A3551A /* iphoneImage.png in Resources */,
+				185B1A8C17BBF60900096F4D /* ip1.png in Resources */,
 				181BE85D17BA42350085B8E2 /* Main.storyboard in Resources */,
+				18F1915717BD1F650073A8AB /* closeBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +354,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185B1A9317BC141100096F4D /* MSIPhoneEventViewController.m in Sources */,
+				1808261B17BDE52A00318CC9 /* MSEventsConnectorViewController.m in Sources */,
 				181BE85A17BA42350085B8E2 /* MSAppDelegate.m in Sources */,
+				185B1A9817BC1C1200096F4D /* UIImage+ImageEffects.m in Sources */,
 				181BE86017BA42350085B8E2 /* MSViewController.m in Sources */,
+				185B1A8617BBF41D00096F4D /* MSEvent.m in Sources */,
 				181BE88017BA428A0085B8E2 /* MSDotsPickerViewController.m in Sources */,
 				181BE85617BA42350085B8E2 /* main.m in Sources */,
+				18F1915C17BD39980073A8AB /* MSTransistorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +567,7 @@
 				181BE87A17BA42350085B8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181BE87B17BA42350085B8E2 /* Build configuration list for PBXNativeTarget "ConnectingDotsTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +576,7 @@
 				181BE87D17BA42350085B8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
