@@ -117,6 +117,7 @@
         case UIGestureRecognizerStateEnded: {
             [self.animator removeBehavior:self.dotAttachment];
             [self.snapPlayer play];
+            self.dotAttachment = nil;
         }
             break;
         case UIGestureRecognizerStateChanged:
